@@ -18,6 +18,12 @@ function renderTodoList(){
 
     document.querySelector(".task-list").innerHTML = todolistHTML;
 
+    document.querySelectorAll('.js-delete-button').forEach((deleteButton, index) => {
+        deleteButton.addEventListener('click', ()=>{
+            todoList.splice(index,1);
+            renderTodoList();
+        });
+  });
 }
 
 document.querySelector('.js-add-button').addEventListener('click', ()=>{
