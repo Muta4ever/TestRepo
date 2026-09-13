@@ -12,7 +12,7 @@ A simple Todo List web application built with HTML, CSS, and JavaScript. This pr
 
 - Add a new task
 - Add a due date to each task
-- Display tasks using CSS Grid
+- Displaying current tasks
 - Delete individual tasks
 - Clear the task input after adding a task
 
