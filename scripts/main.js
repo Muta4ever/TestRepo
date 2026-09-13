@@ -11,7 +11,7 @@ function renderTodoList(){
         const html = `
             <div>${task}</div>
             <div>${date}</div>
-            <button class="js-delete-button">Delete</button>
+            <button class="js-delete-button delete-button">Delete</button>
          `
          todolistHTML+=html;
     })
