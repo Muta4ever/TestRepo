@@ -1,4 +1,4 @@
-const todoList = [{}]
+const todoList = []
 
 renderTodoList()
 
@@ -16,9 +16,11 @@ function renderTodoList(){
          todolistHTML+=html;
     })
 
+    document.querySelector(".task-list").innerHTML = todolistHTML;
+
 }
 
-document.querySelector('js-add-button').addEventListener('click', ()=>{
+document.querySelector('.js-add-button').addEventListener('click', ()=>{
     addTodo();
 })
 
