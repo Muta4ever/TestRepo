@@ -2,3 +2,5 @@
 This project was created to experiment with git.
 
 I will be making a simple todo-app
+
+Estimated Completion Time: 1hr
